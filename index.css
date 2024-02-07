@@ -1,0 +1,12 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+.App{
+    background-color: #111;
+    width: 100vw;
+    overflow: hidden;
+}

@@ -1,0 +1,26 @@
+.row{
+   padding: 8px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:white
+}
+.row_poster{
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+}
+.row_poster::-webkit-scrollbar {
+    display: none;
+}
+.movie_poster{
+    width:150px;
+    margin-right:10px;
+    object-fit: cover;
+    transition: transform 0.5s;
+    cursor:pointer;
+}
+.movie_poster:hover{
+    transform:scale(1.10);
+}
+::-webkit-scrollbar{
+    background-color: #111;
+}
